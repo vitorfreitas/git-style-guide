@@ -1,6 +1,6 @@
-# git-style-guide
+# Git Style Guide
 
-Git style guide used by Pagar.me teams.
+Git style guide suggested by Pagar.me
 
 ## Branches
 
