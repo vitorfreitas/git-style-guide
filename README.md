@@ -30,7 +30,7 @@ Git style guide suggested by Pagar.me
 
 ## Commits
 
-  - [2.1](#) Each commit should be a single logical change.
+  - [2.1](#) Each commit should represent a single logical change.
     > Don't make several logical changes in one commit. For example, if a patch fixes a bug and optimizes the performance of a feature, split it into two separate commits.
 
     > **Tip:** Use git add -p to interactively stage specific portions of the modified files.
@@ -43,14 +43,14 @@ Git style guide suggested by Pagar.me
 
     > **Tip:** Use git add -p to interactively stage specific portions of the modified files.
 
-  - [2.4](#) Commits should be ordered logically.
+  - [2.4](#) Commits should be logically sorted.
     > If commit X depends on changes done in commit Y, then commit Y should come before commit X. Similarly, if commit A solves a bug introduced by commit B, it should also be stated in the message of commit A.
 
 
   - [2.5](#) NEVER let a commit break any working functionality.
-    > ALWAYS guarantee that master only contains commits that work, have their own tests and fixes.
+    > ALWAYS guarantee that the master branch only contains commits that are fully functional, have their own tests and fixes.
 
-    > **Note:** While working alone on a local branch that has not yet been pushed, it's fine to use commits as temporary snapshots of your work. However, it still holds true that you should apply all of the above before pushing it. To do that it's really important to understand `git rebase -i`.
+    > **Note:** While working alone on a local branch that has not yet been pushed, it's fine to use commits as temporary snapshots of your work. However, it still holds true that you should apply all of the above before pushing it to remote. To do that it's really important to understand `git rebase -i`.
 
 ## Messages
 
