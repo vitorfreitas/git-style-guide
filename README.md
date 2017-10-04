@@ -84,7 +84,7 @@ Git style guide suggested by Pagar.me
     Example commit message:
 
     ```
-    core: summarize changes in around 50 characters or less
+    core: Summarize changes in around 50 characters or less
 
     More detailed explanatory text, if necessary. Wrap it to about 72
     characters or so. In some contexts, the first line is treated as the
