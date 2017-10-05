@@ -1,6 +1,10 @@
+<img src="https://avatars1.githubusercontent.com/u/3846050?v=4&s=200" width="127px" height="127px" align="left"/>
+
 # Git Style Guide
 
-Git style guide suggested by Pagar.me
+Git style guide suggested by Pagar.me. 
+
+<br>
 
 ## Branches
 
