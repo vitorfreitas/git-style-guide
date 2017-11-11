@@ -139,3 +139,7 @@ Git style guide suggested by Pagar.me.
 
   - [4.6](#) NEVER use  git merge master on a branch.
     > ALWAYS use git rebase master, then force-push, wait for the CI to clear and only then merge into master.
+
+## Need Help ?
+
+If you are not familiar with git commands or need help to accomplish the style guide, check [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) for some usage tips and walkthrough.
