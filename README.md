@@ -81,14 +81,14 @@ Git style guide suggested by Pagar.me.
 
     - **Title:** consists of the context of the message and subject.
     - **Context:** the part of the of the application that is being changed.
-    - **Subject:** what is being changed. Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period. Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes.
+    - **Subject:** what is being changed. Subjects should be no greater than 50 characters, should begin with a minuscule letter and not end with a period. Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes.
     - **Body:** use the body to explain the what and why of a commit, not the how. When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters. Ultimately, when writing a commit message, think about what you would need to know if you run across the commit in a year from now.
     - **Footer:** the footer is optional and is used to reference issue tracker IDs.
 
     Example commit message:
 
     ```
-    core: Summarize changes in around 50 characters or less
+    core: summarize changes in around 50 characters or less
 
     More detailed explanatory text, if necessary. Wrap it to about 72
     characters or so. In some contexts, the first line is treated as the
